@@ -1,0 +1,132 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.layout-width {
+  width: 1256px;
+  margin: auto;
+  padding: 0 60px;
+}
+
+/* main-header */
+
+.main-header {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-logo {
+  font-size: 30px;
+  font-weight: 700;
+}
+.main-header {
+  display: flex;
+  padding: 10px 0;
+}
+.header-depth1 {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 100px 0 40px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  height: 40px;
+  width: 280px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  padding: 0 10px;
+  font-size: 15px;
+}
+.cart-icon {
+  background-color: #ddd;
+  height: 40px;
+  width: 40px;
+  margin: 0 20px;
+}
+.auth-box {
+  display: flex;
+  font-size: 14px;
+}
+.auth-box li {
+  border-right: 1px solid #ddd;
+}
+.auth-box li:nth-last-child() {
+  border-right: none;
+}
+.auth-box li a {
+  margin: 15px;
+}
+.write {
+  width: 95px;
+  height: 40px;
+  background-color: #35c5f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.write:hover {
+  background-color: #009fce;
+}
+.write span {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* sub-header */
+.sub-header--wrap {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-depth2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.header-depth2 li {
+  padding: 15px 6px;
+}
+.header-depth2 li a {
+  padding: 4px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.popular-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+}
+.popular-search--txt {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.popular-search--ranking {
+  font-weight: 700;
+}
+.popular-search--icon {
+  color: red;
+}
+.popular-search--button {
+  background-color: #ddd;
+  width: 30px;
+  height: 30px;
+  border: none;
+}
