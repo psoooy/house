@@ -23,6 +23,7 @@
 .main-logo {
   font-size: 30px;
   font-weight: 700;
+  letter-spacing: -5px; /*주로 1 px 까지만 사용*/
 }
 .main-header {
   display: flex;
@@ -129,4 +130,23 @@
   width: 30px;
   height: 30px;
   border: none;
+}
+
+/* main */
+
+.banner {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+.main-banner {
+  background-color: #35c5f0;
+  width: 80%;
+  height: 500px;
+  border-radius: 5px;
+}
+.sub-banner {
+  background-color: #35c5f0;
+  width: 20%;
+  height: 500px;
 }
