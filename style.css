@@ -10,6 +10,9 @@
   margin: auto;
   padding: 0 60px;
 }
+.fs01 {
+  font-weight: 700;
+}
 
 /* main-header */
 
@@ -216,8 +219,22 @@
 }
 
 /* footer */
-.corporation {
+.corporation-wrap {
   background-color: aqua;
-  width: 500px;
-  height: 500px;
+  margin-top: 20px;
+  padding: 40px 0;
+}
+
+.corporation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.corp-service {
+  background-color: yellow;
+}
+.corp-link {
+  background-color: yellowgreen;
+  display: flex;
 }
